@@ -1,27 +1,27 @@
 on_string = """
-Connection successful! 
-Welcome {Enforcer} {name}
-You are a valid user!
+「 𝐶𝑜𝑛𝑛𝑒𝑐𝑡𝑒𝑑 𝑡𝑜 𝑆𝑃𝐾 𝑆𝑦𝑠𝑡𝑒𝑚. 」
+◦ Usᴇʀ: {name}
+◦ Rᴀɴᴋ: {Enforcer}
 """
 
 # Make sure not to change these too much
 # If you still wanna change it change the regex too
 scan_request_string = """
 $SCAN
-Cymatic Scan request!
-**Enforcer:** {enforcer} 
-**User scanned:** {spammer}
-**Reason:** `{reason}`
-**Scan Source:** {chat}
-**Target Message:** `{message}`
+「 Cʏᴍᴀᴛɪᴄ Sᴄᴀɴ Rᴇǫᴜᴇsᴛ! 」
+**Eɴғᴏʀᴄᴇʀ:** {enforcer} 
+**Usᴇʀ Sᴄᴀɴɴᴇᴅ:** {spammer}
+**Rᴇᴀsᴏɴ:** `{reason}`
+**Sᴄᴀɴ Sᴏᴜʀᴄᴇ:** {chat}
+**Tᴀʀɢᴇᴛ Mᴇssᴀɢᴇ:** `{message}`
 """
 forced_scan_string = """
 $FORCED
-**Inspector:** {ins}
+**Iɴsᴘᴇᴄᴛᴏʀ:** {ins}
 **Target:** {spammer}
-**Reason:** `{reason}`
-**Scan Source:** {chat}
-**Target Message:** `{message}`
+**Rᴇᴀsᴏɴ:** `{reason}`
+**Sᴄᴀɴ Sᴏᴜʀᴄᴇ:** {chat}
+**Tᴀʀɢᴇᴛ Mᴇssᴀɢᴇ:** `{message}`
 """
 
 reject_string = """
@@ -33,18 +33,18 @@ The trigger of Dominator will be locked.
 
 proof_string = """
 **Case file for** - {proof_id} :
-┣━**Reason**: {reason}
+┣━**Rᴇᴀsᴏɴ**: {reason}
 ┗━**Message**
          ┣━[Nekobin]({paste})
          ┗━[DelDog]({url})"""
 
 scan_approved_string = """
-#LethalEliminator
-**Target User:** {scam}
-**Crime Coefficient:** `Over 300`
-**Reason:** `{reason}`
+「 Lᴇᴛʜᴀʟ Eʟɪᴍɪɴᴀᴛᴏʀ 」
+**Tᴀʀɢᴇᴛ Usᴇʀ:** {scam}
+**Cʀɪᴍᴇ Cᴏᴇғғɪᴄɪᴇɴᴛ:** `Over 300`
+**Rᴇᴀsᴏɴ:** `{reason}`
 **Enforcer:** `{enforcer}`
-**Case Number:** `{proof_id}`
+**Cᴀsᴇ Nᴜᴍʙᴇʀ:** `{proof_id}`
 """
 
 bot_gban_string = """
