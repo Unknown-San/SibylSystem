@@ -43,7 +43,7 @@ for load in to_load:
 
 @System.on(system_cmd(pattern=r"status", allow_enforcer=True))
 async def status(event):
-    msg = await event.reply("Connecting to SPK System.")
+    msg = await event.reply("Connecting to Nexus System.")
     time.sleep(1)
     await msg.edit("Initialising, wait plox ▫️▫️▫️▫️▫️▫️")
     time.sleep(1)
@@ -59,7 +59,7 @@ async def status(event):
     time.sleep(1)
     await msg.edit("Initialising ▪️▪️▪️▪️▪️▪️")
     time.sleep(1)
-    await msg.edit("😁😁 Verified 😁😁")
+    await msg.edit("√Verified√")
     time.sleep(2)
     sender = await event.get_sender()
     user_status = "Inspector" if sender.id in INSPECTORS else "Enforcer"
