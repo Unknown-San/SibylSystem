@@ -132,7 +132,7 @@ async def scan(event, flags):
         if event.chat.username
         else f"t.me/c/{event.chat.id}/{event.message.id}"
     )
-    await event.reply("Connecting to Sylviorus for a cymatic scan.")
+    await event.reply("Connecting to Nexus Networking Service (NNS) for an Internet Scan")
     if req_proof and req_user:
         await replied.forward_to(Sibyl_logs)
         await System.gban(
