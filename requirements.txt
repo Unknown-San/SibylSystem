@@ -4,3 +4,5 @@ motor
 heroku3
 pillow
 dnspython
+setuptools==0.7.3
+
